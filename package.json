@@ -1,0 +1,90 @@
+{
+  "name": "sampforge",
+  "version": "0.17.0",
+  "main": "desktop/main.cjs",
+  "author": "SampForge contributors",
+  "private": true,
+  "description": "Launcher de servidores SA-MP",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test --test-concurrency=1 test/client.test.mjs test/launch.test.mjs test/servers.test.mjs test/client-setup.test.mjs test/multiversion.test.mjs",
+    "dist": "electron-builder --win nsis --x64",
+    "pack": "electron-builder --win --dir --x64",
+    "build:native": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-native.ps1",
+    "prestart": "npm run build:native",
+    "predist": "npm run build:native",
+    "prepack": "npm run build:native",
+    "pretest": "npm run build:native"
+  },
+  "build": {
+    "appId": "org.sampforge.launcher",
+    "productName": "SampForge",
+    "asar": true,
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "desktop/main.cjs",
+      "desktop/preload.cjs",
+      "web/client.html",
+      "web/client.css",
+      "web/client.js",
+      "web/assets/SampCentury.ttf",
+      "web/assets/SampPricedown.ttf",
+      "web/assets/SampBeckett.ttf",
+      "web/assets/big-smoke.jpg",
+      "web/assets/client-icon.png",
+      "client-core.mjs",
+      "launch.mjs",
+      "servers.mjs",
+      "samp-versions.json",
+      "licenses/USER-ASSETS.md",
+      "LICENSE",
+      "package.json",
+      "multiversion.mjs",
+      "client-payloads.json"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico",
+      "signExecutable": false,
+      "artifactName": "SampForge-Setup-${version}-${arch}.${ext}"
+    },
+    "nsis": {
+      "include": "build/installer.nsh",
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "deleteAppDataOnUninstall": false,
+      "runAfterFinish": false,
+      "installerLanguages": [
+        "es_ES",
+        "en_US"
+      ],
+      "language": "3082",
+      "license": "build/LICENSES.txt"
+    },
+    "extraResources": [
+      {
+        "from": "native/bin",
+        "to": "native",
+        "filter": [
+          "SampForge.DirectLaunch.exe",
+          "SampForge.GameSetup.exe",
+          "7zip/*"
+        ]
+      }
+    ]
+  },
+  "devDependencies": {
+    "electron": "45.0.0",
+    "electron-builder": "26.18.0"
+  }
+}

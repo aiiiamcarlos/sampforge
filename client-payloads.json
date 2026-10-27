@@ -1,0 +1,214 @@
+[
+  {
+    "id": "037",
+    "label": "0.3.7",
+    "files": [
+      {
+        "source": "bass.dll",
+        "path": "bass.dll",
+        "hash": "3f04620d6627abe5c3b4747faf26603ab7a006c81b2021ab4689bdd7033bb4cd"
+      },
+      {
+        "source": "gtaweap3.ttf",
+        "path": "gtaweap3.ttf",
+        "hash": "086dc4351bf1056d80a73168440ffe4261831bde992e5134902b9bae017dcbe9"
+      },
+      {
+        "source": "mouse.png",
+        "path": "mouse.png",
+        "hash": "2bbcaf4629f9077bcdf847f912cbe76d20c4428d710bcf76211ead1dccbd08f1"
+      },
+      {
+        "source": "rcon.exe",
+        "path": "rcon.exe",
+        "hash": "19f0d6d844f6f14856e3ea88853202b6310edc4726eb0c803710b67f641e596f"
+      },
+      {
+        "source": "samp-license.txt",
+        "path": "samp-license.txt",
+        "hash": "52dcd5b95bf24e3cb4b979a773e92dc586531c5a001196e81da7ff2996f81125"
+      },
+      {
+        "source": "samp.dll",
+        "path": "samp.dll",
+        "hash": "7e30f3c9cd99d5e2932410f486e8139affa2dad19bd65ad9c328f6a4071943f7"
+      },
+      {
+        "source": "samp.exe",
+        "path": "samp.exe",
+        "hash": "f7c4372c8545121938230ae0c9f1d9bd297836e8ad37afa710ee93f2c4791ade"
+      },
+      {
+        "source": "samp.saa",
+        "path": "samp.saa",
+        "hash": "596895c61a70f558a9ad6b9b44cb5c9ac4b374e95ee2266ac9c88585898f8ae7"
+      },
+      {
+        "source": "sampaux3.ttf",
+        "path": "sampaux3.ttf",
+        "hash": "3adfe84498e8951e61ece57ad08de21b95d162697517291564ae6ef3a8790c1b"
+      },
+      {
+        "source": "sampgui.png",
+        "path": "sampgui.png",
+        "hash": "8bd41399b3ff22b7d497f3f31d39caa67a10e6b91d47bdfbe35e963894c22c4d"
+      },
+      {
+        "source": "samp_debug.exe",
+        "path": "samp_debug.exe",
+        "hash": "f64d11680442cea5940614177b5ecff866e1e45c07a95cd5564327a94e8101d3"
+      },
+      {
+        "source": "SAMP/blanktex.txd",
+        "path": "SAMP/blanktex.txd",
+        "hash": "724eff1b323771153a172abb35fcf7fbfaa88af7bab906b51181a94e08ef2e67"
+      },
+      {
+        "source": "SAMP/CUSTOM.ide",
+        "path": "SAMP/CUSTOM.ide",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "source": "SAMP/custom.img",
+        "path": "SAMP/custom.img",
+        "hash": "20de16a9abe3b2bf6f9fa415d855230a9c5487433b3c77037c2ee84d5f35df38"
+      },
+      {
+        "source": "SAMP/samaps.txd",
+        "path": "SAMP/samaps.txd",
+        "hash": "d7a10e2d6497865377f61061abc13c5b7d1c81f8471410c80191640e04948285"
+      },
+      {
+        "source": "SAMP/SAMP.ide",
+        "path": "SAMP/SAMP.ide",
+        "hash": "dd66aa822943526dffe0f80af88547615672c9bb6e9f3fcfde6d6f8b860f93f5"
+      },
+      {
+        "source": "SAMP/SAMP.img",
+        "path": "SAMP/SAMP.img",
+        "hash": "7755badde82981616e6cdfe7f4be37ded413979f7c881e35ad63b758ca787d2f"
+      },
+      {
+        "source": "SAMP/SAMP.ipl",
+        "path": "SAMP/SAMP.ipl",
+        "hash": "a0c31a4593de2ffe6dc734eae06c3794dcec985f53a4e985f6b895789847a26d"
+      },
+      {
+        "source": "SAMP/SAMPCOL.img",
+        "path": "SAMP/SAMPCOL.img",
+        "hash": "aa6dabfb4b38e3b79949bbb3aa4f90c7e4fd3909feed37335b2d656e73089490"
+      },
+      {
+        "source": "$SYSDIR/d3dx9_25.dll",
+        "path": "d3dx9_25.dll",
+        "hash": "4c54df27ce84d21b2924e64ff79b13e7876ce85d8e0c9c1d0abd8da73888187a"
+      }
+    ]
+  },
+  {
+    "id": "dl",
+    "label": "0.3.DL-R1",
+    "files": [
+      {
+        "source": "bass.dll",
+        "path": "bass.dll",
+        "hash": "3f04620d6627abe5c3b4747faf26603ab7a006c81b2021ab4689bdd7033bb4cd"
+      },
+      {
+        "source": "gtaweap3.ttf",
+        "path": "gtaweap3.ttf",
+        "hash": "086dc4351bf1056d80a73168440ffe4261831bde992e5134902b9bae017dcbe9"
+      },
+      {
+        "source": "mouse.png",
+        "path": "mouse.png",
+        "hash": "2bbcaf4629f9077bcdf847f912cbe76d20c4428d710bcf76211ead1dccbd08f1"
+      },
+      {
+        "source": "rcon.exe",
+        "path": "rcon.exe",
+        "hash": "19f0d6d844f6f14856e3ea88853202b6310edc4726eb0c803710b67f641e596f"
+      },
+      {
+        "source": "samp-license.txt",
+        "path": "samp-license.txt",
+        "hash": "86f15a4376971e08eafaca58b750a8874e1b54ae851122244a0f9343f59f768e"
+      },
+      {
+        "source": "samp.dll",
+        "path": "samp.dll",
+        "hash": "bccdb297464bd382625635be25585df07a8fa6668bc0015650708e3eb4ffcd4b"
+      },
+      {
+        "source": "samp.exe",
+        "path": "samp.exe",
+        "hash": "b21351fbcd10ffa0f47a453bc2d193cc820919dba7240cdda7a32c21bb21fb14"
+      },
+      {
+        "source": "samp.saa",
+        "path": "samp.saa",
+        "hash": "596895c61a70f558a9ad6b9b44cb5c9ac4b374e95ee2266ac9c88585898f8ae7"
+      },
+      {
+        "source": "sampaux3.ttf",
+        "path": "sampaux3.ttf",
+        "hash": "3adfe84498e8951e61ece57ad08de21b95d162697517291564ae6ef3a8790c1b"
+      },
+      {
+        "source": "sampgui.png",
+        "path": "sampgui.png",
+        "hash": "8bd41399b3ff22b7d497f3f31d39caa67a10e6b91d47bdfbe35e963894c22c4d"
+      },
+      {
+        "source": "samp_debug.exe",
+        "path": "samp_debug.exe",
+        "hash": "f64d11680442cea5940614177b5ecff866e1e45c07a95cd5564327a94e8101d3"
+      },
+      {
+        "source": "SAMP/blanktex.txd",
+        "path": "SAMP/blanktex.txd",
+        "hash": "724eff1b323771153a172abb35fcf7fbfaa88af7bab906b51181a94e08ef2e67"
+      },
+      {
+        "source": "SAMP/CUSTOM.ide",
+        "path": "SAMP/CUSTOM.ide",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "source": "SAMP/custom.img",
+        "path": "SAMP/custom.img",
+        "hash": "20de16a9abe3b2bf6f9fa415d855230a9c5487433b3c77037c2ee84d5f35df38"
+      },
+      {
+        "source": "SAMP/samaps.txd",
+        "path": "SAMP/samaps.txd",
+        "hash": "d7a10e2d6497865377f61061abc13c5b7d1c81f8471410c80191640e04948285"
+      },
+      {
+        "source": "SAMP/SAMP.ide",
+        "path": "SAMP/SAMP.ide",
+        "hash": "dd66aa822943526dffe0f80af88547615672c9bb6e9f3fcfde6d6f8b860f93f5"
+      },
+      {
+        "source": "SAMP/SAMP.img",
+        "path": "SAMP/SAMP.img",
+        "hash": "7755badde82981616e6cdfe7f4be37ded413979f7c881e35ad63b758ca787d2f"
+      },
+      {
+        "source": "SAMP/SAMP.ipl",
+        "path": "SAMP/SAMP.ipl",
+        "hash": "a0c31a4593de2ffe6dc734eae06c3794dcec985f53a4e985f6b895789847a26d"
+      },
+      {
+        "source": "SAMP/SAMPCOL.img",
+        "path": "SAMP/SAMPCOL.img",
+        "hash": "aa6dabfb4b38e3b79949bbb3aa4f90c7e4fd3909feed37335b2d656e73089490"
+      },
+      {
+        "source": "$SYSDIR/d3dx9_25.dll",
+        "path": "d3dx9_25.dll",
+        "hash": "4c54df27ce84d21b2924e64ff79b13e7876ce85d8e0c9c1d0abd8da73888187a"
+      }
+    ]
+  }
+]

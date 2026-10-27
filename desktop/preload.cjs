@@ -1,0 +1,2 @@
+const {contextBridge,ipcRenderer}=require('electron');const allowed=new Set(['state','servers','choose-game','nickname','play','retry','window-minimize','window-maximize','window-close']);
+contextBridge.exposeInMainWorld('launcher',{invoke:(action,input={})=>allowed.has(action)?ipcRenderer.invoke('launcher',action,input):Promise.reject(Error('Acción no disponible.')),onConnection:fn=>{ipcRenderer.on('connection-state',(_e,v)=>fn(v));},onWindow:fn=>{ipcRenderer.on('window-state',(_e,v)=>fn(v));}});

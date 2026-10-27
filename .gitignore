@@ -1,0 +1,20 @@
+data/
+node_modules/
+*.log
+dist/
+smoke*/
+native/bin/
+dist-*/
+
+# Local credentials and signing keys
+.env
+.env.*
+*.pfx
+*.p12
+*.key
+# Historical catalog research, not part of the fixed multiversion release
+scripts/catalog-samp-versions.cjs
+scripts/add-historical-versions.cjs
+licenses/silentpatch-MIT.txt
+licenses/widescreen-MIT.txt
+licenses/UnifrakturCook-OFL.txt

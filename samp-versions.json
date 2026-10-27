@@ -1,0 +1,18 @@
+[
+  {
+    "name": "sa-mp-0.3.7-install.exe",
+    "url": "https://raw.githubusercontent.com/Se8870/SAMP-File-Archive/ebdc9a94467a51fce69fdd285cf26af9b858b457/archives/sa-mp-0.3.7-install.exe",
+    "label": "0.3.7",
+    "sha256": "4bfe8b844a12def72d441fc27c9f155641abe6d99216f1c00292bf0b3685a510",
+    "clientHash": "7e30f3c9cd99d5e2932410f486e8139affa2dad19bd65ad9c328f6a4071943f7",
+    "size": 16270006
+  },
+  {
+    "name": "sa-mp-0.3.DL-R1-install.exe",
+    "url": "https://raw.githubusercontent.com/Se8870/SAMP-File-Archive/ebdc9a94467a51fce69fdd285cf26af9b858b457/archives/sa-mp-0.3.DL-R1-install.exe",
+    "label": "0.3.DL-R1",
+    "sha256": "fddbef743914d6a4a8d9b9895f219864bbb238a447bf36b8a8d652e303d78acb",
+    "clientHash": "bccdb297464bd382625635be25585df07a8fa6668bc0015650708e3eb4ffcd4b",
+    "size": 15656217
+  }
+]
