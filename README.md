@@ -1,8 +1,8 @@
-# SampForge 0.17.0
+# SampForge 0.17.1
 
 Launcher de código abierto para Windows, con lista de servidores y SA-MP multiversión. Primera publicación de prueba.
 
-**[Descargar para Windows](https://github.com/aiiiamcarlos/sampforge/releases/tag/v0.17.0)** · [Reportar un problema](https://github.com/aiiiamcarlos/sampforge/issues)
+**[Descargar para Windows](https://github.com/aiiiamcarlos/sampforge/releases/tag/v0.17.1)** · [Reportar un problema](https://github.com/aiiiamcarlos/sampforge/issues)
 
 Interfaz simple con Servidores y Configuración, filtros por nombre, jugadores e idioma y entrada directa al juego.
 
@@ -26,7 +26,7 @@ Lista paginada a 60 filas, búsquedas con espera de 120 ms y textos normalizados
 
 ## Desarrollo y validación
 
-Windows, Node.js 24 y .NET Framework 4.x. npm ci; npm test; npm start; npm run dist. Resultado: dist/SampForge-Setup-0.17.0-x64.exe.
+Windows, Node.js 24 y .NET Framework 4.x. npm ci; npm test; npm start; npm run dist. Resultado: dist/SampForge-Setup-0.17.1-x64.exe.
 
 14 pruebas de configuración, lanzamiento con un ejecutable de prueba, directorio, versión, registro y preparación nativa pasan. La prueba nativa usa los dos instaladores verificados en ../tooling/samp-versions y un GTA ficticio; comprueba instalación, cambio, recuperación sin backups y archivos ajenos intactos. Ejecuta `node scripts/prepare-test-clients.mjs` para preparar las dos descargas verificadas. CI ejecuta este paso antes de probar. Sin ellas, la prueba nativa se omite expresamente. Interfaz comprobada a 1120 y 600 px y con 30.000 servidores ficticios; solo 60 filas se crean.
 

@@ -1,6 +1,6 @@
 {
   "name": "sampforge",
-  "version": "0.17.0",
+  "version": "0.17.1",
   "main": "desktop/main.cjs",
   "author": "SampForge contributors",
   "private": true,
