@@ -86,5 +86,10 @@
   "devDependencies": {
     "electron": "45.0.0",
     "electron-builder": "26.18.0"
+  },
+  "overrides": {
+    "electron-winstaller": {
+      "temp": "0.9.4"
+    }
   }
 }
